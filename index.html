@@ -18,40 +18,102 @@
             </tr>
         </table>
     </div>
+
     <div class="home">
+        <div class="slideShow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img class="imagen"src="img1.jpg" >
+                <div class="text">Maestro en nuevas tecnologias</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img class="imagen" src="img2.jpg" >
+                <div class="text">Capacidades avanzadas de copy paste de codigo</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img class="imagen" src="img3.jpg" >
+                <div class="text">Caption Three</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+            <br>
+
+            <!-- The dots/circles -->
+        <div class="Title">
+            <span class="dot" onclick="currentSlide(1, 0)"></span>
+            <span class="dot" onclick="currentSlide(2, 0)"></span>
+            <span class="dot" onclick="currentSlide(3, 0)"></span>
+        </div>
+    </div>
+      
+    <div class="experience"> 
+        <h1 class="Title">Mi Experiencia Como Programador  2</h1>
+        <div class="myProyects-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="myProyects fade">
+                <div class="ProyectNumbertext">1 / 3</div>
+                <h2 class="subTitle"> Proyecto  1</h2>
+                <h3 class="subTitle"> Videojuego de laberintos generados por algoritmos</h3>
+                <ul>
+                    <li> Java</li>
+                    <li> NetBeans</li>
+                </ul>
+                <figure class="imgProyecto">
+                    <img class="imagen" src="imgLaberinto.png" >
+                </figure>
+                <div> Fecha 20/04/2018 </div> 
+               
+
+            </div>
+
+            <div class="myProyects fade">
+                <div class="Numbertext">2 / 3</div>
+                <h2 class="subTitle"> Proyecto  2</h2>
+                <h3 class="subTitle">Generador de planes de vuelo con </h3>
+                <ul>
+                    <li> Java</li>
+                    <li> JavaGUI</li>
+                    <li> NetBeans</li>
+                </ul>
+                <figure class="imgProyecto">
+                    <img class="imagen" src="imgAero.jpg" >
+                </figure>
+                <div> Fecha 20/04/2018 </div> 
+                
+
+            </div>
+
+            <div class="myProyects fade">
+                <div class="Numbertext">3 / 3</div>
+                <h2 class="subTitle"> Proyecto  3</h2>
+                <h3 class="subTitle">Piano digital con MIPS</h3>
+                <ul>
+                    <li> MIPS Assembler</li>
+
+                </ul>
+                <figure class="imgProyecto">
+                    <img class="imagen" src="imgPiano.jpg" >
+                </figure>
+                <div> Fecha 20/04/2018 </div> 
+               
+
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prevProyect" onclick="plusSlides(-1 , 1)">&#10094;</a>
+            <a class="nextProyect" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>        
         
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="img1.jpg" style="width:100%">
-            <div class="text">Maestro en nuevas tecnologias</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="img2.jpg" style="width:100%">
-            <div class="text">Capacidades avanzadas de copy paste de codigo</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="img3.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-        <br>
 
-        <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-    <div class="experience"> Hola</div>
     <div class="about-me"> Prueba</div>
     <div class="Skills"></div>
 </body>
