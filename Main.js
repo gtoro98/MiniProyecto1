@@ -1,10 +1,22 @@
 var slideIndex = [1, 1];
 var slideId = ["mySlides","myProyects"]
+var rows= [
+      ["java", "15em"],
+      ["python", "7em"],
+      ["C++", "5em"],
+      ["SQL", "11em"]
+]
+
 AutoshowSlides();
 showSlides(slideIndex, 1);
+crearTablas(rows);
 
+function crearTablas(rows){
+  for (var skill of rows){
+    document.getElementById(skill[0]).style.height = skill[1];
+  }
 
-
+}
 
 
 // Next/previous controls
@@ -21,7 +33,6 @@ function showSlides(n, num) {
     console.log("maricooooo")
   var i;
   var slides = document.getElementsByClassName(slideId[num]);
-  console.log(slides)
   var dots = document.getElementsByClassName("dot");
 
   if (n > slides.length) {slideIndex[num] = 1}

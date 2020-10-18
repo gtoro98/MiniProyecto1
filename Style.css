@@ -11,6 +11,7 @@
 
   }
   
+
   /* Style the links inside the navigation bar */
   .nav a {
     float: left;
@@ -209,7 +210,26 @@
       height: 10em;
       width: 8em;
   }
-  .textoYo{
+ .Skills{
+     margin: auto;
+ }
 
-  }
-  
+
+ #tabla{
+   position: relative;
+   margin: 1em;
+   height: 25em;
+   width: 25em;
+   background-color:white;
+ }
+ 
+.barra{
+  position: absolute;
+
+  background-color: blue;
+  margin: auto;
+  bottom: 0;
+ 
+  height: 10em;
+  width: 5em;
+} 
