@@ -4,7 +4,9 @@ var rows= [
       ["java", "15em"],
       ["python", "7em"],
       ["C++", "5em"],
-      ["SQL", "11em"]
+      ["SQL", "11em"],
+      ["HTML", "1em"],
+      ["CSS", "3em"]
 ]
 
 AutoshowSlides();
