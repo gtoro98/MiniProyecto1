@@ -35,7 +35,8 @@
 
 /* Slideshow container */
 .home {
-  max-width: 1000px;
+  max-width: 100%;
+  max-height: 50%;
   position: relative;
   margin: auto;
 }
@@ -75,10 +76,10 @@
 /* Caption text */
 .text {
   color: #000000;
-  font-size: 18px;
+  font-size: 200%;
   padding: 8px 12px;
   position: absolute;
-  bottom: 0px;
+  bottom: 50%;
   width: 100%;
   text-align: center;
 }
